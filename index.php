@@ -25,7 +25,8 @@
     <hr><br>
     <h3>感謝您贊助苦力怕競技場伺服器</h3>
     <p>若有任何意見，請不吝向我們回報！</p>
-    <div class="alert alert-success" role="alert">此工具提供購買苦力怕競技場伺服器<a href="https://creeper.tw/door-rent/" target="_blank">傳送門租用方案</a>玩家使用！如有任何疑問，歡迎<a href="http://discord.gg/aKj8vyDGdJ" target="_blank">聯絡我們</a>！</div>
+    <div class="alert alert-success" role="alert">此工具提供購買苦力怕競技場伺服器<a href="https://creeper.tw/door-rent/"
+        target="_blank">傳送門租用方案</a>玩家使用！如有任何疑問，歡迎<a href="http://discord.gg/aKj8vyDGdJ" target="_blank">聯絡我們</a>！</div>
     <div class="row">
       <div class="input-group mb-3">
         <input type="text" class="form-control" placeholder="自定義傳送門名稱" aria-label="自定義傳送門名稱"
@@ -38,21 +39,9 @@
         <option value="white-list=true">開啟</option>
         <option value="white-list=false">關閉</option>
       </select>
-      <select class="custom-select my-1 col-3" id="b">
-        <option selected value="">伺服器種類</option>
-        <option value="server_type=minecraft">Minecraft</option>
-        <option value="server_type=spigot">Spigot</option>
-      </select>
-      <select class="custom-select my-1 col-3" id="c">
-        <option selected value="">伺服器版本</option>
-        <option value="version=1.16.2">1.16.2</option>
-        <option value="version=1.15.2">1.15.2</option>
-        <option value="version=1.14.4">1.14.4</option>
-        <option value="version=1.12.2">1.12.2</option>
-        <option value="version=1.11.2">1.11.2</option>
-      </select>
       <select class="custom-select my-1 col-3" id="d">
-        <option selected value="">預設遊戲</option>
+        <option selected value="">遊戲地圖</option>
+        <option value="">自訂上傳地圖</option>
         <option value="gametype=74-UHC">苦力怕UHC</option>
         <option value="gametype=111-EmeraldWar">綠寶石戰爭</option>
         <option value="gametype=110-HideAndSeek">躲貓貓</option>
@@ -65,11 +54,29 @@
         <option value="gametype=28-sky">天空攻城戰</option>
         <option value="gametype=24-CreativeUHC">創造大亂鬥</option>
       </select>
+      <select class="custom-select my-1 col-3" id="b">
+        <option selected value="">伺服器種類</option>
+        <option value="server_type=minecraft">Minecraft</option>
+        <option value="server_type=spigot">Spigot</option>
+        <option value="server_type=paper">Paper</option>
+      </select>
+      <select class="custom-select my-1 col-3" id="c">
+        <option selected value="">伺服器版本</option>
+        <option value="version=1.16.2">1.16.2</option>
+        <option value="version=1.15.2">1.15.2</option>
+        <option value="version=1.14.4">1.14.4</option>
+        <option value="version=1.12.2">1.12.2</option>
+        <option value="version=1.11.2">1.11.2</option>
+      </select>
     </div>
     <br>
     <div class="row">
       <button type="button" class="btn btn-outline-success col downloadBtn">下載設定檔</button>
     </div>
+  </div>
+  <div role="alert" aria-live="polite" aria-atomic="true"
+    class="alert position-fixed fixed-bottom m-0 rounded-0 shadow text-center alert-dismissible alert-warning">
+    <span class="d-inline-block">Copyright © CreeperArena ALL Rights Reserved since 2020</span>
   </div>
 </body>
 
